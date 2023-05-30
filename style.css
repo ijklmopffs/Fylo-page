@@ -1,0 +1,252 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background-color: hsl(218, 28%, 13%);
+  margin: 0;
+  background-image: url(./images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.links a + a {
+  margin-left: 20px;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.one img {
+  width: 400px;
+}
+.first_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first_text h1 {
+  color: white;
+  font-family: "Raleway";
+  font-size: 24px;
+  margin-bottom: 0;
+  width: 415px;
+  text-align: center;
+}
+.first_text p {
+  font-size: 14px;
+  color: white;
+  width: 415px;
+  text-align: center;
+}
+.one button {
+  padding: 10px 40px;
+  border-radius: 20px;
+  background-color: hsl(198, 60%, 50%);
+  border: none;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  color: white;
+}
+.first_two,
+.second_two {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+}
+.first_two p {
+  width: 330px;
+}
+.second_two p {
+  width: 330px;
+}
+.three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 100px;
+  gap: 40px;
+}
+.three img {
+  width: 400px;
+}
+.three h2 {
+  font-size: 32px;
+  font-family: "Raleway";
+  width: 265px;
+}
+.three p {
+  width: 400px;
+  font-weight: 500;
+}
+.three a {
+  color: hsl(176, 68%, 64%);
+}
+.three a img {
+  width: 8px;
+  height: 8px;
+}
+.four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 40px;
+}
+.card {
+  background-color: hsl(219, 30%, 18%);
+  padding: 20px;
+  color: white;
+  width: 245px;
+}
+.card p {
+  width: 245px;
+}
+.card img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile_text p {
+  margin-bottom: 0;
+  font-size: 8px;
+}
+.profile_text p + p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.five {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(217, 28%, 15%);
+  width: 700px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: -50px;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.five p {
+  width: 535px;
+  text-align: center;
+}
+input {
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 100px;
+  border: none;
+}
+.five button {
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: hsl(198, 60%, 50%);
+  border: none;
+  font-size: 12px;
+  color: white;
+  font-weight: 700;
+}
+footer {
+  background-color: hsl(216, 53%, 9%);
+  padding: 10px;
+}
+.footer_text {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+.location {
+  display: flex;
+  align-items: center;
+}
+.location p {
+  width: 250px;
+}
+.footer_text img {
+  margin-right: 10px;
+}
+.footer_links {
+  display: flex;
+  flex-direction: column;
+}
+.footer_links a {
+  text-decoration: none;
+  color: white;
+}
+.footer_links a + a {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .one img {
+    width: 100%;
+  }
+  .first_text h1 {
+    width: 300px;
+  }
+  .first_text p {
+    width: 300px;
+  }
+  .first_two,
+  .second_two {
+    flex-direction: column;
+    align-items: center;
+  }
+  .three {
+    flex-direction: column;
+  }
+  .three img {
+    width: 100%;
+  }
+  .three p {
+    width: 335px;
+  }
+  .four {
+    flex-direction: column;
+  }
+  .five {
+    width: 80%;
+  }
+  .five p {
+    width: 248px;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+  .input button {
+    margin-top: 10px;
+  }
+  .footer_text {
+    flex-direction: column;
+  }
+  .logo {
+    margin-top: 100px;
+  }
+}
