@@ -100,8 +100,8 @@ body {
   color: hsl(176, 68%, 64%);
 }
 .three a img {
-  width: 8px;
-  height: 8px;
+  width: 12px;
+  height: 12px;
 }
 .four {
   display: flex;
@@ -180,6 +180,7 @@ footer {
   display: flex;
   gap: 40px;
   justify-content: space-between;
+  color: white;
 }
 .location {
   display: flex;
